@@ -1,0 +1,6 @@
+query IncludeQuery($showRanking: Boolean!) {
+  post {
+    title
+    ranking @include(if: $showRanking)
+  }
+}

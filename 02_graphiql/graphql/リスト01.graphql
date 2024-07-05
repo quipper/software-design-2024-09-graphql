@@ -1,0 +1,10 @@
+query PostListPage {
+  posts {
+    title
+    publishedAt
+    author {
+      name
+      imageUrl
+    }
+  }
+}

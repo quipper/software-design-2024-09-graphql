@@ -1,0 +1,7 @@
+query DirectiveQuery {
+  post(id: "1") {
+    title
+    body @include(if: false)
+    published @skip(if: true)
+  }
+}

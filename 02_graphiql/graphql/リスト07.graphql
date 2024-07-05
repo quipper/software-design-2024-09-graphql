@@ -1,0 +1,10 @@
+type User {
+  # list1自身も要素もnullになり得る場合
+  list1: [String]
+  # list2自身はnon-nullableであるが、要素がnullになり得る場合
+  list2: [String]!
+  # list3自身はnullになり得るが、要素はnon-nullableである場合
+  list3: [String!]
+  # list4自身も要素もnon-nullableである場合
+  list4: [String!]!
+}

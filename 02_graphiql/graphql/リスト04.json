@@ -1,0 +1,11 @@
+{
+  "data": {
+    "post": {
+      "title": "Signed Query は GraphQL の Trusted Document の新しい実装パターンです",
+      "publishedAt": "2024-04-15",
+      "author": {
+        "name": "YutaUra"
+      }
+    }
+  }
+}

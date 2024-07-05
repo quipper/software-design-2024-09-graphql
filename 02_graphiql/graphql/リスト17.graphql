@@ -1,0 +1,5 @@
+query DynamicQuery($id: ID!) {
+  post(id: $id) {
+    title
+  }
+}

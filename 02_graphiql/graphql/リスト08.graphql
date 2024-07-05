@@ -1,0 +1,9 @@
+query FirstQuery {
+  post(id: "1") {  # ^
+    title       # ^  |
+    publishedAt # |  |
+    author {    # b  a
+      name # -c   |  |
+    }           # v  |
+  }                # v
+}

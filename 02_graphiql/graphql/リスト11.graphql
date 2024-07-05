@@ -1,0 +1,8 @@
+query AliasedQuery {
+  post1: post(id: "1") {
+    title
+  }
+  post2: post(id: "2") {
+    title
+  }
+}

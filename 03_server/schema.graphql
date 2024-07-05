@@ -1,0 +1,24 @@
+type PostTag {
+  name: String!
+}
+
+type Post  {
+  id: ID!
+  title: String!
+  body: String!
+  tags: [PostTag!]!
+}
+
+interface User {
+  name: String!
+}
+
+type Author implements User {
+  id: ID!
+  name: String!
+  posts: [Post!]!
+}
+
+type Query {
+  authors: [Author!]!
+}

@@ -1,0 +1,10 @@
+type Post {
+  title: String!
+  publishedAt: String!
+  author: Author!
+}
+
+type Author {
+  name: String!
+  posts: [Post!]!
+}

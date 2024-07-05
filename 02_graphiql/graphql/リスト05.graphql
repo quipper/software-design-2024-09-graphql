@@ -1,0 +1,10 @@
+type Post {
+  title: String!
+  publishedAt: String!
+  # Author の定義はリスト6にある
+  author: Author!
+}
+
+type Query {
+  post(id: ID!): Post
+}

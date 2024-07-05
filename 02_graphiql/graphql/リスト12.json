@@ -1,0 +1,10 @@
+{
+  "data": {
+    "post1": {
+      "title": "Signed Query は GraphQL の Trusted Document の新しい実装パターンです"
+    },
+    "post2": {
+      "title": "New Relic で Prisma の パフォーマンスを計測してみた"
+    }
+  }
+}

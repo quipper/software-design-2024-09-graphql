@@ -1,0 +1,9 @@
+type Post {
+  title: String!
+  publishedAt: Date!
+  author: Author!
+}
+
+type Query {
+  posts: [Post!]!
+}

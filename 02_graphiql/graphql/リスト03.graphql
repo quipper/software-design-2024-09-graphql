@@ -1,0 +1,9 @@
+query FirstQuery { # 1 - オペレーションの宣言
+  post(id: "1") {  # 2 - Queryタイプのクエリ
+    title          # 3 - Postタイプのクエリ
+    publishedAt    # 3 - Postタイプのクエリ
+    author {       # 3 - Post タイプのクエリ
+      name         # 4 - Authorタイプのクエリ
+    }
+  }
+}

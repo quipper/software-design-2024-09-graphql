@@ -1,0 +1,8 @@
+type Post {
+  title: String! @deprecated
+  body: String! @deprecated(reason: "Use `content` instead.")
+  content: String! @constraint(maxLength: 1000)
+}
+
+# ディレクティブの定義の例
+directive @constraint(maxLength: Int) on FIELD_DEFINITION

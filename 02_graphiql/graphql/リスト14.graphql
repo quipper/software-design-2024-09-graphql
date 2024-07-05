@@ -1,0 +1,20 @@
+fragment PostItem on Post {
+  title
+  author {
+    name
+    posts {
+      tags {
+        name
+      }
+    }
+  }
+}
+
+query DryQuery {
+  post1: post(id: "1") {
+    ...PostItem
+  }
+  post2: post(id: "2") {
+    ...PostItem
+  }
+}
